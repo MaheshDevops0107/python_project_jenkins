@@ -8,7 +8,7 @@ def root():
 
 @app.route('/version')
 def version():
-    return "<h1>v1.4</h1>"
+    return "<h1>v1.5</h1>"
 
 if __name__ == '__main__':
     app.run(host='0.0.0.0', port=5000)
